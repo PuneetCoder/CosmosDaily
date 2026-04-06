@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌌 Space Theme */
+.card-glow:hover {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.2);
+}
+img {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+:root {
+  --bg-primary: #020817;
+  --bg-card: #0f1729;
+  --accent-cyan: #22d3ee;
+  --accent-purple: #a855f7;
+  --text-primary: #f1f5f9;
+  --text-muted: #94a3b8;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+}
